@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title>Cover Template · Bootstrap v5.0</title>
+    <title>Página Inicial</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -35,6 +35,8 @@
     
     <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+
   </head>
   <body class="d-flex h-100 text-center text-white bg-dark">
     
@@ -43,9 +45,9 @@
     <div>
       <h3 class="float-md-start mb-0">Cover</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link active" aria-current="page" href="/index.php">Home</a>
-        <a class="nav-link" href="/login.php">Login</a>
-        <a class="nav-link" href="/cadastro.php">Cadastre-se</a>
+        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+        <a class="nav-link" href="login.php">Login</a>
+        <a class="nav-link" href="cadastro.php">Cadastre-se</a>
       </nav>
     </div>
   </header>

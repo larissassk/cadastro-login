@@ -48,3 +48,33 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+
+
+/* estilo extras */
+main {
+  border: 2px solid #dee2e6;
+  padding: 60px 60px;
+  background-color: #;
+  border-radius: 10px;
+  max-width: 500px;
+  height: 400px;
+  margin: 70px;
+  
+}
+h1{
+  text-align: center;
+  margin: auto;
+  margin-top: auto;
+}
+.form-label{
+  margin-right: 500px;
+  margin-top: 20px;
+}
+.form-control{
+  text-align: center;
+  background-color: #969696;
+  min-width: 400px;
+}
+.btn-primary{
+  background-color: #969696;
+}

@@ -6,8 +6,9 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Inicial</title>
-
+    <title>Inicio</title>
+    <!-- Icone / logo -->
+    <link rel="icon" href="/img/Tw.png">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -87,9 +88,9 @@
       <!-- Conteudo da pagina -->
       <main class="px-3">
         <h1>Seja bem-vindo(a)</h1>
-        <p class="lead">Esta atividade envolve o desenvolvimento de uma aplicação web simples, utilizando PHP e Bootstrap 5+. O objetivo é criar um sistema de cadastro e login para uma experiência de usuário segura e intuitiva.</p>
+        <p class="lead">Esta atividade envolve o desenvolvimento de uma aplicação web simples, utilizando <br> PHP e Bootstrap 5+. O objetivo é criar um sistema de cadastro e login <br> para uma experiência de usuário segura e intuitiva.</p>
         <p class="lead">
-          <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
+          <a href="https://github.com/larissassk/cadastro-login" class="btn btn-lg btn-light fw-bold border-white bg-white">Abrir</a>
         </p>
       </main>
 

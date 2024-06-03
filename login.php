@@ -77,6 +77,7 @@ footer{
         </nav>
       </div>
     </header>
+
     <!-- campos para preencher -->
     <main class="px-3 my-auto">
       <h1>Login</h1>
@@ -88,6 +89,8 @@ footer{
           <input type="password" class="form-control" id="password" name="password" required placeholder="Insira sua senha">
         </div>
         <button id="butsalvar" type="submit" class="btn btn-primary w-100">Entrar</button>
+        <p>Esqueceu sua senha?</p>
+        <p>Não possui uma conta? <a style="color: white;" href="cadastro.php">Cadastre-se</a>
       </form>
     </main>
 

@@ -31,7 +31,7 @@
   padding: 15px;
   text-align: center;
 }
-h1{
+h1, p{
   margin: 20px;
 }
 

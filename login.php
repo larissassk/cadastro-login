@@ -42,7 +42,7 @@
   background-color: #007bff;
   border-color: #007bff;
 }
-h1{
+h1, p{
   margin: 20px;
 }
 footer{
@@ -89,8 +89,7 @@ footer{
           <input type="password" class="form-control" id="password" name="password" required placeholder="Insira sua senha">
         </div>
         <button id="butsalvar" type="submit" class="btn btn-primary w-100">Entrar</button>
-        <p>Esqueceu sua senha?</p>
-        <p>Não possui uma conta? <a style="color: white;" href="cadastro.php">Cadastre-se</a>
+        <p>Esqueceu sua senha?<br>Não possui uma conta? <a style="color: white;" href="cadastro.php">Cadastre-se</a>
       </form>
     </main>
 

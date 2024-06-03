@@ -91,6 +91,7 @@ footer{
           <input type="password" class="form-control" id="password" name="password" required placeholder="Insira sua senha">
         </div>
         <button id="butsalvar" type="submit" class="btn btn-primary w-100">Entrar</button>
+        <p>Tens uma conta? <a style="color: white;" href="login.php">Inicia sessão</a><br></p>
       </form>
     </main>
 

@@ -68,9 +68,11 @@
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
     }
 
-    footer {
-      color: rgba(255, 255, 255, 0.5);
-    }
+    footer{
+    font-size: small;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
   </style>
   <body class="d-flex h-100 text-center text-white bg-dark">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -87,8 +89,8 @@
       </header>
       <!-- Conteudo da pagina -->
       <main class="px-3">
-        <h1>Seja bem-vindo(a)</h1>
-        <p class="lead">Esta página é uma aplicação web simples, utilizando <br> Bootstrap 5+ e futuramente o PHP. O objetivo é criar um sistema de cadastro e login</p>
+        <h1>Seja bem-vindo(a)!</h1>
+        <p class="lead">Esta aplicação web utiliza Bootstrap 5+ e, em breve, PHP. <br> O objetivo é criar um sistema de cadastro e login.</p>
         <p class="lead">
           <a href="https://github.com/larissassk/cadastro-login" class="btn btn-lg btn-light fw-bold border-white bg-white">Abrir</a>
         </p>

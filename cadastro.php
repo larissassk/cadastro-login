@@ -31,9 +31,8 @@
   padding: 15px;
   text-align: center;
 }
-
-.form-label {
-  text-align: left;
+h1{
+  margin: 20px;
 }
 
 .form-control {
@@ -45,6 +44,9 @@
 .btn-primary {
   background-color: #007bff;
   border-color: #007bff;
+}
+footer{
+  font-size: small;
 }
 
 @media (max-width: 768px) {
@@ -69,23 +71,24 @@
       <div>
         <h3 class="float-md-start mb-0"><strong>TechWeb</strong></h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
-          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+          <a class="nav-link " aria-current="page" href="index.php">Home</a>
           <a class="nav-link" href="login.php">Login</a>
-          <a class="nav-link" href="cadastro.php">Cadastre-se</a>
+          <a class="nav-link active" href="cadastro.php">Cadastre-se</a>
         </nav>
       </div>
     </header>
       <!-- Conteudo da pagina -->
     <main class="px-3 my-auto">
       <h1>Cadastre-se</h1>
-      <form action="" method="post" class="w-100 mx-auto" style="max-width: 400px;">
-        <div class="mb-3">
-          <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control" id="email" name="email" required aria-describedby="emailHelp">
+      <form action="" method="post" class="w-100 mx-auto" style="max-width: 400px; ">
+      <div class="mb-3">
+          <input type="text" class="form-control" id="nome" name="nome" required aria-describedby="nome" placeholder="Insira seu nome">
         </div>
         <div class="mb-3">
-          <label for="password" class="form-label">Senha</label>
-          <input type="password" class="form-control" id="password" name="password" required>
+          <input type="email" class="form-control" id="email" name="email" required aria-describedby="emailHelp" placeholder="Insira seu email">
+        </div>
+        <div class="mb-3">
+          <input type="password" class="form-control" id="password" name="password" required placeholder="Insira sua senha">
         </div>
         <button id="butsalvar" type="submit" class="btn btn-primary w-100">Entrar</button>
       </form>

@@ -88,7 +88,7 @@
       <!-- Conteudo da pagina -->
       <main class="px-3">
         <h1>Seja bem-vindo(a)</h1>
-        <p class="lead">Esta atividade envolve o desenvolvimento de uma aplicação web simples, utilizando <br> PHP e Bootstrap 5+. O objetivo é criar um sistema de cadastro e login <br> para uma experiência de usuário segura e intuitiva.</p>
+        <p class="lead">Esta página é uma aplicação web simples, utilizando <br> Bootstrap 5+ e futuramente o PHP. O objetivo é criar um sistema de cadastro e login</p>
         <p class="lead">
           <a href="https://github.com/larissassk/cadastro-login" class="btn btn-lg btn-light fw-bold border-white bg-white">Abrir</a>
         </p>

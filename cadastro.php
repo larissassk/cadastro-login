@@ -69,9 +69,9 @@
       <div>
         <h3 class="float-md-start mb-0"><strong>TechWeb</strong></h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
-          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+          <a class="nav-link" aria-current="page" href="index.php">Home</a>
           <a class="nav-link" href="login.php">Login</a>
-          <a class="nav-link" href="cadastro.php">Cadastre-se</a>
+          <a class="nav-link active" href="cadastro.php">Cadastre-se</a>
         </nav>
       </div>
     </header>

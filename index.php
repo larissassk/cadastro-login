@@ -19,7 +19,7 @@
     body {
       margin: 0;
       padding: 0;
-      background-image: url('/php/cadastro-login/img/codweb.gif'); /* adiciona gif no fundo */
+      background-image: url('/php/cadastro-login/img/codweb.gif');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -29,21 +29,16 @@
       align-items: center;
       color: white;
       font-family: Arial, sans-serif;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para as frase*/
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
+
 
     .cover-container {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      background: rgba(0, 0, 0, 0.5); 
-      padding: 20px;
+    width: 100%;
+    max-width: 960px;
+    padding: 15px;
+    text-align: center;
     }
-
     .nav-masthead .nav-link {
       color: rgba(255, 255, 255, 0.75);
       border-bottom: 0.25rem solid transparent;

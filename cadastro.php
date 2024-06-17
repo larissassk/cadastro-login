@@ -62,7 +62,11 @@ footer{
     text-align: center;
   }
 }
-
+.form-signin input[type="tipoUser"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
 </style>
 <body class="d-flex h-100 text-center text-white bg-dark">
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -71,11 +75,7 @@ footer{
       <div>
         <h3 class="float-md-start mb-0"><strong>TechWeb</strong></h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
- 
-          <a class="nav-link" aria-current="page" href="index.php">Home</a>
-
           <a class="nav-link " aria-current="page" href="index.php">Home</a>
-
           <a class="nav-link" href="login.php">Login</a>
           <a class="nav-link active" href="cadastro.php">Cadastre-se</a>
         </nav>
@@ -96,7 +96,7 @@ footer{
         </div>
         <div class="mb-3">
           <select class="form-select" id="tipoUser" name="tipoUser" required>
-            <option value="">Tipo de Usuário</option>
+            <option value="" selected disabled>Tipo de Usuário</option>
             <option value="1">Administrador</option>
             <option value="2">Usuário Comum</option>
             <option value="3">Outro</option>

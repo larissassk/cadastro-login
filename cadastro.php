@@ -94,6 +94,14 @@ footer{
         <div class="mb-3">
           <input type="password" class="form-control" id="password" name="password" required placeholder="Insira sua senha">
         </div>
+        <div class="mb-3">
+          <select class="form-select" id="tipoUser" name="tipoUser" required>
+            <option value="">Tipo de Usuário</option>
+            <option value="1">Administrador</option>
+            <option value="2">Usuário Comum</option>
+            <option value="3">Outro</option>
+          </select>
+        </div>
         <button id="butsalvar" type="submit" class="btn btn-primary w-100">Entrar</button>
         <p>Tens uma conta? <a style="color: white;" href="login.php">Inicia sessão</a><br></p>
       </form>
